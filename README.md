@@ -1,6 +1,6 @@
 # Paneer-Lang
 
-Paneer-Lang is a fun-made programming language created for learning and experimentation purposes. It is a simple language that allows you to print messages to the console using the `paneer.bol()` function.
+Paneer-Lang is a fun-made programming language created for learning and experimentation purposes. It is a simple language that allows you to print messages to the console using the `paneer.bol()` function. Recently, variable support has been added, allowing you to store and use variables in your Paneer-Lang code.
 
 ## Usage
 
@@ -33,7 +33,9 @@ To run Paneer-Lang code, you need to have PHP installed on your machine. Follow 
 Let's create a simple Paneer-Lang file named `hello.p`:
 
 ```plaintext
-paneer.bol("Hello, Paneer-Lang!");
+$vartest = "hlo";
+paneer.bol($vartest);
+// Output: "hlo"
 ```
 
 Save the file and run it using the following command:
@@ -45,7 +47,7 @@ $ php interpreter.php paneer hello.p
 The output will be:
 
 ```
-Hello, Paneer-Lang!
+hlo
 ```
 
 Feel free to experiment with more Paneer-Lang code and explore the possibilities of this fun language!

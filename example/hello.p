@@ -1,2 +1,4 @@
-paneer.bol("Hello, Paneer-Lang!");
-// currently only supported print!
+paneer.bol("Hello, World!");
+paneer.bol("This is Paneer Lang.");
+$xd = "lol";
+paneer.bol($xd);

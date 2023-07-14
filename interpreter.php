@@ -21,7 +21,7 @@ class PaneerLangInterpreter {
             } elseif ($this->startsWith(trim($line), 'paneer.bol(') && $this->endsWith(trim($line), ');')) {
                 $output = $this->extractStringArgument($line);
                 $output = trim($output, '"');
-                $output = $this->replaceVariableReferences($output); // Added this line
+                $output = $this->replaceVariableReferences($output); //Handle variable
                 echo $output . PHP_EOL;
             }
         }
